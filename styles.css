@@ -393,3 +393,10 @@ div::-webkit-scrollbar-corner {
 }
 
 
+#clock {
+  font-size: 25;
+  padding: 0rem 16.8rem;
+  font-weight: bold;
+  text-align: left;
+  color: 000000;
+}
