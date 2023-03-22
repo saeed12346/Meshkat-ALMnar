@@ -445,7 +445,9 @@ a:hover::before {
   position: fixed;
   top: 90%;
   left: 95%;
-  background-color: #b5a483;
+  background-color: #F5EFE1;
+  padding: 3rem;
+  border-radius: 2rem;
   padding: 10px;
   color: #2F2F2F;
 }
