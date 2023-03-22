@@ -17,6 +17,8 @@
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
+
 }
 
 body {
@@ -393,3 +395,50 @@ div::-webkit-scrollbar-corner {
 }
 
 
+
+nav {
+  width: 80%;
+  min-width: 600px;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+nav a{
+  position: relative;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  color: #e00f0f;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s; 
+  -o-transition: 0.3s;
+}
+
+a::before{
+  content: '';
+  position: absolute;
+  right: 0;
+  height: 3px;
+  width: 0%;
+  background-color: #282828;
+  bottom: -7px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s; 
+  -o-transition: 0.3s;
+}
+
+a:hover {
+  color: white;
+}
+
+a:hover::before {
+  width: 100%;
+}
