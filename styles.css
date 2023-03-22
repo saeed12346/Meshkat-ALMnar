@@ -4,7 +4,7 @@
   --white: #000000;
   --gray: #000000;
   --light-purple: #2F2F2F;
-  --dark-purple: #545050;
+  --dark-purple: #3c3c3b;
 }
 
 * {
@@ -392,14 +392,6 @@ div::-webkit-scrollbar-corner {
   background-color: #8276769d;
 }
 
-
-#clock {
-  font-size: 25;
-  padding: 0rem 16.8rem;
-  font-weight: bold;
-  text-align: left;
-  color: #000000;
-} 
 
 nav {
   width: 80%;
