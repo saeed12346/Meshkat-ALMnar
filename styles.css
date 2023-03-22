@@ -444,9 +444,8 @@ a:hover::before {
 .angel-up a {
   position: fixed;
   top: 90%;
-  padding: 4px;
   left: 95%;
-  background-color: #ccba95;
+  background-color: #b5a483;
   padding: 10px;
   color: #2F2F2F;
 }
